@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Navbar with Search</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul class="navbar-menu">
+        <li>
+          <a href="#">Explore</a>
+          <div class="dropdown">
+            <a href="#">Option 1</a>
+            <a href="#">Option 2</a>
+          </div>
+        </li>
+        <li>
+          <div class="search-container">
+            <input type="text" placeholder="Search..." />
+            <button type="submit">Search</button>
+          </div>
+        </li>
+      </ul>
+
+      <div class="navbar-logo">
+        <img
+          src="https://www.nasa.gov/wp-content/themes/nasa/assets/images/nasa-logo.svg"
+          alt="Logo"
+        />
+      </div>
+
+      <ul class="navbar-menu">
+        <li>
+          <a href="#">News & Events</a>
+          <div class="dropdown">
+            <a href="#">News</a>
+            <a href="#">Events</a>
+          </div>
+        </li>
+        <li>
+          <a href="#">Multimedia</a>
+          <div class="dropdown">
+            <a href="#">Videos</a>
+            <a href="#">Images</a>
+          </div>
+        </li>
+        <li>
+          <a href="#">NASA+</a>
+          <div class="dropdown">
+            <a href="#">Live</a>
+            <a href="#">Programs</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="main-content">
+        <div class="main-container-text">
+      <h1>best of 2024</h1>
+      <p>
+        in 2024, nasa made leap after giant leap to explore , discover, and
+        inspire-all while bringing real, tangible, and substantial benefits to
+        the american people and to all of humanity
+      </p>
+      <button class="btn">watch</button>
+    </div>
+    </div>
+    <section class="featured-news">
+      <h1>Featured News</h1>
+      <div class="news-grid">
+          <div class="news-item large">
+              <img src="https://www.nasa.gov/wp-content/uploads/2024/10/54067151504-46075ee405-k.jpg" alt="Artemis I Orion Heat Shield">
+              <div class="news-content">
+                  <p>8 MIN READ</p>
+                  <h2>NASA Identifies Cause of Artemis I Orion Heat Shield Char Loss</h2>
+              </div>
+          </div>
+          <div class="news-item">
+              <img src="https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/solar-system/collage/Hubble_OPAL10_Cover_STScI-01JE3XMES9TH3WPDCG1BTTRRPN.jpg" alt="X-59 Shock Wave Measurements">
+              <div class="news-content">
+                  <p>3 MIN READ</p>
+                  <h2>NASA to Test Technology for X-59's Unique Shock Wave Measurements</h2>
+              </div>
+          </div>
+          <div class="news-item">
+              <img src="https://www.nasa.gov/wp-content/uploads/2024/12/1-imagesasteroid20171120eso1737a-16.jpg" alt="Celestial River Spiral">
+              <div class="news-content">
+                  <p>2 MIN READ</p>
+                  <h2>Hubble Spots a Spiral in the Celestial River</h2>
+              </div>
+          </div>
+          <div class="news-item">
+              <img src="https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/galaxies/spiral/Hubble_NGC1637_potw2449a.jpg?w=1280&format=webp&fit=clip&crop=faces%2Cfocalpoint" alt="Hubble Quasar Observation">
+              <div class="news-content">
+                  <p>4 MIN READ</p>
+                  <h2>NASA’s Hubble Takes the Closest-Ever Look at a Quasar</h2>
+              </div>
+          </div>
+      </div>
+  </section>
+
+
+  <div class="cards-container">
+    <img style="height:100px ;border-radius: 50px;  width: 100px;" src="https://www.nasa.gov/wp-content/uploads/2024/12/artemis-accords-denmark.jpg?resize=150,150" alt="Flags" class="card-image">
+    <div class="card">
+       
+        <p class="read-time">2 MIN READ</p>
+        <h3>NASA Invites Media to Panama, Austria Artemis Accords Signings</h3>
+        <p class="category">NEWS RELEASE</p>
+    </div>
+    <img style="height:100px ;border-radius: 50px;  width: 100px;" src="https://images-assets.nasa.gov/image/AFRC2024-0110-13/AFRC2024-0110-13~large.jpg?w=1536&h=1024&fit=crop&crop=faces%2Cfocalpoint" alt="X-59" class="card-image">
+    <div class="card">
+      
+        <p class="read-time">3 MIN READ</p>
+        <h3>NASA to Test Technology for X-59's Unique Shock Wave Measurements</h3>
+        <p class="category">IMAGE ARTICLE</p>
+    </div>
+    <img style="height:100px ;border-radius: 50px;  width: 100px;" src="https://www.nasa.gov/wp-content/uploads/2024/12/swot-pace-still-thumbnail.png?resize=150,150" alt="Satellite" class="card-image">
+    <div class="card">
+      
+        <p class="read-time">6 MIN READ</p>
+        <h3>NASA’s PACE, US-European SWOT Satellites Offer Combined Look at Ocean</h3>
+        <p class="category">ARTICLE</p>
+    </div>
+    <img style="height:100px ;border-radius: 50px;  width: 100px;" src="https://science.nasa.gov/wp-content/uploads/2023/06/parkcityutmeteor-credit-nasa-bill-dunford-jpg.webp" alt="Sky" class="card-image">
+    <div class="card">
+      
+        <p class="read-time">5 MIN READ</p>
+        <h3>What’s Up: December 2024 Skywatching Tips from NASA</h3>
+        <p class="category">ARTICLE</p>
+    </div>
+</div>
+
+<section class="path-forward">
+  <div class="video-container">
+    <video autoplay muted loop class="background-video">
+        <source src="https://www.nasa.gov/wp-content/uploads/2023/10/sequence-001-1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="content">
+        <h1>The Path Forward</h1>
+        <p>The Artemis II test flight will be NASA’s first mission with 
+          a crew under the Artemis campaign and will pave the way to land
+           astronauts on the Moon on Artemis III and future missions. </h2>
+        <p>Frequently Asked Questionsabout The Path Forward</p>
+    </div>
+</div>
+  
+</section>
+
+<section class="humans-in-space">
+  <h1>Humans in Space</h1>
+  <div class="grid11">
+      <div class="  card1">
+        
+          <div class="card-text">
+              <h2 style="margin-left: 10px; margin-top: 350px; color: white;">Why Go to Space <a href="#">&#10132;</a></h2>
+              
+          </div>
+      </div>
+      <div class="card2">
+        
+          <div class="card-text">
+              <h2 style="margin-left: 10px; margin-top: 350px; color: white;">Astronauts  <a href="#">&#10132;</a></h2>
+             
+          </div>
+      </div>
+      <div class="card3">
+         
+          <div class="card-text">
+              <h2 style="margin-left: 10px; margin-top: 350px; color: white;">Commercial Space  <a href="#">&#10132;</a></h2>
+             
+          </div>
+      </div>
+      <div class="card4">
+         
+          <div class="card-text">
+              <h2 style="margin-left: 10px; margin-top: 350px; color: white;">Living in Space <a href="#">&#10132;</a></h2>
+              
+          </div>
+      </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-top">
+      <div class="footer-logo">
+        <img src="https://www.nasa.gov/wp-content/themes/nasa/assets/images/nasa-logo.svg" alt="NASA Logo" class="logo">
+      </div>
+      <div class="footer-about">
+        <h2>National Aeronautics and Space Administration</h2>
+        <p>NASA explores the unknown in air and space, innovates for the benefit of humanity, and inspires the world through discovery.</p>
+        <a href="#" class="link">About NASA's Mission</a>
+        <a href="#" class="join-link">Join Us ➔</a>
+      </div>
+      <div class="footer-links">
+        <div class="links-column">
+          <h3>Home</h3>
+          <ul>
+            <li><a href="#">News & Events</a></li>
+            <li><a href="#">Multimedia</a></li>
+            <li><a href="#">NASA+ <span class="live">LIVE</span></a></li>
+            <li><a href="#">Missions</a></li>
+          </ul>
+        </div>
+        <div class="links-column">
+          <h3>Humans in Space</h3>
+          <ul>
+            <li><a href="#">Earth & Climate</a></li>
+            <li><a href="#">The Solar System</a></li>
+            <li><a href="#">The Universe</a></li>
+            <li><a href="#">Science</a></li>
+          </ul>
+        </div>
+        <div class="links-column">
+          <h3>Aeronautics</h3>
+          <ul>
+            <li><a href="#">Technology</a></li>
+            <li><a href="#">Learning Resources</a></li>
+            <li><a href="#">About NASA</a></li>
+            <li><a href="#">NASA en Español</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-social">
+        <h3>Follow NASA</h3>
+        <div class="social-icons">
+          <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDQB3NoWLcz5ge5AAjV2elU73ycS4wsndomw&s" alt="Facebook"></a>
+          <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS8ik5TWBBrpR_dCp9Eizjc60837EM7BPYaA&s" alt="Instagram"></a>
+          <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAAAAABXZoBIAAAA/0lEQVR4AbXPIazCMACE4d+L2qoZFEGSIGcRc/gJJB5XMzGJmK9EN0HMi+qaibkKVF1txdQe4g0YzPK5yyWXHL9TaPNQ89LojH87N1rbJcXkMF4Fk31UMrf34hm14KUeoQxGArALHTMuQD2cAWQfJXOpgTbksGr9ng8qluShJTPhyCdx63POg7rEim95ZyR68I1ggQpnCEGwyPicw6hZtPEGmnhkycqOio1zm6XuFtyw5XDXfGvuau0dXHzJp8pfBPuhIXO9ZK5ILUCdSvLYMpc6ASBtl3EaC97I4KaFaOCaBE9Zn5jUsVqR2vcTJZO1DdbGoZryVp94Ka/mQfE7f2T3df0WBhLDAAAAAElFTkSuQmCC" alt="Twitter"></a>
+          <a href="#"><img src="https://images.vexels.com/media/users/3/137425/isolated/lists/f2ea1ded4d037633f687ee389a571086-youtube-icon-logo.png" alt="YouTube"></a>
+        </div>
+        <a href="#" class="link">More NASA Social Accounts</a>
+        <a href="#" class="link">NASA Newsletters</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <ul class="bottom-links">
+        <li><a href="#">Sitemap</a></li>
+        <li><a href="#">For Media</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">FOIA</a></li>
+        <li><a href="#">No FEAR Act</a></li>
+        <li><a href="#">Office of the IG</a></li>
+        <li><a href="#">Budget & Annual Reports</a></li>
+        <li><a href="#">Agency Financial Reports</a></li>
+        <li><a href="#">Contact NASA</a></li>
+        <li><a href="#">Accessibility</a></li>
+      </ul>
+      <p>Page Last Updated: <strong>Dec 09, 2024</strong> | Page Editor: <strong>Dacia Massengill</strong> | Responsible NASA Official: <strong>Abigail Bowman</strong></p>
+    </div>
+  </div>
+</footer>
+  </body>
+</html>
